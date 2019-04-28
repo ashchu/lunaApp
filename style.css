@@ -1,0 +1,442 @@
+/*@import url(https://fonts.googleapis.com/css?family=Oswald);*/
+/*html, body {*/
+/*  overflow: hidden;*/
+/*  height: 100%;*/
+/*}*/
+
+/*a {*/
+/*  color: #fff;*/
+/*}*/
+
+/*.bg {*/
+/*  z-index: -2;*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center center;*/
+/*  overflow: hidden;*/
+/*  will-change: transform;*/
+/*  -webkit-backface-visibility: hidden;*/
+/*          backface-visibility: hidden;*/
+/*  height: 130vh;*/
+/*  position: fixed;*/
+/*  width: 100%;*/
+/*  -webkit-transform: translateY(20vh);*/
+/*          transform: translateY(20vh);*/
+/*  transition: all 1s cubic-bezier(0.22, 0.44, 0, 1) 0.5s;*/
+/*}*/
+/*.bg:before {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  background-color: rgba(0, 0, 0, 0.3);*/
+/*}*/
+/*.bg:first-child {*/
+/*  z-index: 1;*/
+/*  background-image: url(https://i.ibb.co/8gwyX66/Untitled.png);*/
+/*  -webkit-transform: translateY(-10vh);*/
+/*          transform: translateY(-10vh);*/
+/*}*/
+/*.bg:first-child .c-w {*/
+/*  -webkit-transform: translateY(10vh);*/
+/*          transform: translateY(10vh);*/
+/*}*/
+/*.bg:nth-child(2) {*/
+/*  background-image: url(https://i.ibb.co/LNYLhWN/Untitled-3.png);*/
+/*}*/
+/*.bg:nth-child(3) {*/
+/*  background-image: url(https://www.dropbox.com/s/iq7agflgp6tyfom/NGP5rFh.jpg?raw=1);*/
+/*}*/
+/*.bg:nth-child(4) {*/
+/*  background-image: url(https://www.dropbox.com/s/awilgsrrzwj4nax/LfZ4BEh.jpg?raw=1);*/
+/*}*/
+/*.bg:nth-child(5) {*/
+/*  background-image: url(https://www.dropbox.com/s/5uxnakol81n612z/H2fcKBA.jpg?raw=1);*/
+/*}*/
+
+/*.c-w {*/
+/*  height: 100vh;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  text-align: center;*/
+/*  flex-flow: column nowrap;*/
+/*  color: #fff;*/
+/*  font-family: Montserrat;*/
+/*  text-transform: uppercase;*/
+/*  -webkit-transform: translateY(40vh);*/
+/*          transform: translateY(40vh);*/
+/*  will-change: transform;*/
+/*  -webkit-backface-visibility: hidden;*/
+/*          backface-visibility: hidden;*/
+/*  transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1) 0.5s;*/
+/*}*/
+/*.c-t {*/
+/*  font-size: 10vh;*/
+/*  line-height: 1.2;*/
+/*}*/
+
+
+/*#MainContainer {*/
+/*  	perspective: 1px;*/
+/*  	transform-style: preserve-3d;*/
+/* 	height: 100vh;*/
+/*  	overflow-x: hidden;*/
+/*  	overflow-y: scroll;*/
+/*	}*/
+
+/*#parallax-container {*/
+
+/*  	transform-style: preserve-3d;*/
+ 
+/*  	overflow-x: hidden;*/
+/*  	overflow-y: scroll;*/
+	
+/*  display: flex;*/
+/*  flex: 1 0 auto;*/
+
+/*  position: top;*/
+/*  z-index: 5;*/
+/* top: 70%;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  transform: translateZ(-1px) scale(1.1);*/
+/*  background: url(images/luna-parallax2.png);*/
+/*}*/
+
+
+/*	#content {*/
+/*	  display: block;*/
+/*	  position: relative;*/
+/*	  background-color: white;*/
+/*	  z-index: 1;*/
+/*	}*/
+	
+	
+/*	.panel {*/
+/*		height: 100%;*/
+/*		width: 100%;*/
+/*	}*/
+/*	.panel.green {*/
+/*		margin-bottom: 400px*/
+/*	}*/
+	
+	
+	
+/*	@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Raleway');*/
+
+
+/*body {*/
+/*  margin: 0;*/
+/*}*/
+
+/*#parallax-container {*/
+/*  display: block;*/
+/*  height: 750px;*/
+/*}*/
+
+/*#parallax-container div {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  background-position: center !important;*/
+/*  transform: translateY(0px);*/
+/*  height: 750px;*/
+/*  width: 100%;*/
+/*}*/
+
+/*#content {*/
+/*  position: relative;*/
+/*  background-color: #030f33;*/
+/*  color: #ffffff;*/
+/*  padding: 100px;*/
+/*}*/
+
+/*#content h1 {*/
+/*  font-size: 100px;*/
+/*  text-align: center;*/
+/*  font-family: 'Markazi Text', serif;*/
+/*}*/
+
+/*#content p {*/
+/*  font-size: 18px;*/
+/*  font-family: 'Raleway', sans-serif;*/
+/*}*/
+
+
+
+/*html, body {*/
+/*  font-family: Open Sans;*/
+/*  font-size: 18px;*/
+/*  line-height: 28px;*/
+/*  scroll-behavior: smooth;*/
+/*}*/
+
+/*h1 {*/
+/*  letter-spacing: -15px;*/
+/*  font-family: Open Sans;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  font-size: 200px;*/
+/*  font-weight: 800;*/
+/*  line-height: 200px;*/
+/*}*/
+
+/*.MainContainer {*/
+/*  perspective: 1px;*/
+/*  transform-style: preserve-3d;*/
+/*  height: 100vh;*/
+/*  overflow-x: hidden;*/
+/*  overflow-y: scroll;*/
+/*}*/
+
+/*.Phase1 {*/
+
+  
+  
+/*  display: flex;*/
+/*  flex: 1 0 auto;*/
+/*  position: relative;*/
+/*  z-index: -1;*/
+/*  height: 1000px;*/
+/*  width: 100%;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  transform: translateZ(-5px) scale(2.1);*/
+/*  background: url(images/new-beginning.png);*/
+ 
+/*}*/
+
+/*.Content {*/
+/*  max-width: 750px;*/
+/*  margin: 0 auto;*/
+/*  padding: 75px 0;*/
+/*}*/
+
+/*p {*/
+/*  margin: 75px 0;*/
+/*}*/
+
+/*.ParallaxContainer {*/
+/*  display: flex;*/
+/*  flex: 1 0 auto;*/
+/*  position: relative;*/
+/*  z-index: -1;*/
+/*  height: 120vh;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  transform: translateZ(-1px) scale(2.1);*/
+/*  background: url(images/actual-luna-parallax3.png);*/
+ 
+/*}*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');*/
+
+html, body {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 28px;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  letter-spacing: -15px;
+  font-family: Open Sans;
+  color: white;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 800;
+  line-height: 200px;
+}
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  
+}
+
+.ContentContainer {
+  position: relative;
+  display: block;
+  background-color: white;
+  background: url(images/new-beginning1.png);
+  z-index: 1;
+  height: 120%;
+  
+}
+
+
+.ContentContainer1 {
+  position: relative;
+  display: block;
+  background-color: white;
+  background: url(images/follicular-phase1.png);
+  z-index: 1;
+  height: 120%;
+  
+}
+
+.ContentContainer2 {
+  position: relative;
+  display: block;
+  background-color: white;
+  background: url(images/ovulation-cycle2.png);
+  z-index: 1;
+  height: 120%;
+  
+}
+
+.ContentContainer3 {
+  position: relative;
+  display: block;
+  background-color: white;
+  background: url(images/luteal-phase4.png);
+  z-index: 1;
+  height: 120%;
+  
+}
+
+.Content {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+p {
+  margin: 75px 0;
+}
+
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  background: url(images/actual-luna-parallax.png);
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT Serif:400,800');
+
+#myButton{
+  border-radius: 15px;
+  border: 1px white;
+  display: inline-block;
+  padding: 10px 15px;
+  }
+
+#myButton img{
+    display:block;
+    width: 200px;
+  }
+
+#myButton:hover{
+  background: white;
+  }
+  
+  
+  .navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  position: static;
+   margin-top: 75px;
+  height: 50px;
+  margin-left:70px;
+  font-family: PT Serif;
+  /*margin-right:40px;*/
+}
+
+/* Navigation links */
+.navbar a {
+  float: none;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  padding-right: 120px;
+   padding-left: 120px;
+   font-family: PT Serif;
+
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  /*background-color: #a4bce8;*/
+   text-decoration: underline;
+   
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  /*background-color: #a4bce8;*/
+   text-decoration: underline;
+}
+
+.navbar:visited {
+  /*background-color: #a4bce8;*/
+   text-decoration: underline;
+}
+
+form {
+  width: 500px;
+  background: whit;
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 30px;
+  
+}
+form input,
+form textarea {
+  font: inherit;
+  padding: 5px 5px;
+  width: 500px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+form button {
+
+  padding: 8px 35px;
+  font-size: 20px;
+  background: #ff866b;
+  font-family: PT Serif;
+  color: white;
+}
+form label {
+  color: white;
+  font-size: 11px;
+  margin-bottom: 2px;
+  display: block;
+}
+
+h4 {
+  font-family: PT Serif;
+}
+
+#apnd div { 
+        height: 250px; 
+        width: 150px; 
+       
+        margin-left: 5px; 
+        float: left; /*Here you can also use display: inline-block instead of float:left*/
+        background-color:rgba(0, 0, 0, 0);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p5 {
+  font-size: 20px;
+}

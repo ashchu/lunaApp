@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=PT Serif' rel='stylesheet'>
+
+<style>
+html{
+  color: black;
+  width: 100%;
+  background-image: linear-gradient(white, #FF866C);
+  background-repeat: no-repeat;
+  /*border: solid 10px #ff866B;*/
+ }
+ .emoji{
+ 	margin-left: 20px;
+ }
+ .emoji:visited{
+ 	text-decoration: underline;
+ 
+ }
+ input[type=date] {
+  height: 35px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 18px;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  background-color: lighten(#2f2f2f,40%);
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+  color: #fff;
+  
+  &::-webkit-datetime-edit-month-field {
+    color: red;
+  }
+  &::-webkit-datetime-edit-day-field {
+    color: white;
+  }
+  &::-webkit-datetime-edit-year-field {
+    color: blue;
+  }
+  
+  &::-webkit-clear-button {
+    font-size: 18px;
+    height: 30px;
+    position: relative;
+    right: 5px;
+    margin-right: 4px;
+  }
+  &::-webkit-inner-spin-button {
+    height: 30px;
+  }
+  &::-webkit-calendar-picker-indicator {
+    font-size: 18px;
+    
+        
+    &:hover {
+      background-color: lighten(#2f2f2f,40%);
+      color: darken(#fff, 10%);
+      cursor: pointer;
+    }
+    &:active {
+      color: blue;
+    }
+  }
+}
+
+</style>
+
+<body>
+ <div>
+  <!--      <div style="float: right; margin-top:5px;">-->
+  <!--welcome back, gianna|<a href="#"> sign out</a>-->
+  <!--</div>-->
+  <img src="images/luna-logo.png"style="margin-left: 650px; width:130px; height:90px;" alt="Gianna's Profile" class="luna-logo">
+  </div>
+
+
+<div class="navbar" style="background-size: cover;
+ padding-top:0px; display: inline;
+ padding-bottom:0px; background-color:rgba(0, 0, 0, 0); color:black; margin-top: 10px;">
+  <a href="start-day.html">start day</a> 
+  <a href="mid-cycle.html">mid-cycle</a> 
+  <a href="end-day.html">end day</a> 
+  <a href="calendar.html">calendar</a>
+</div>
+
+<div style="text-align: center; font-weight:normal; width: 40%; float: left; margin-top: 120px;">
+	<h2 style="font-weight:normal">middle of your period</h2>
+	<div style="width:100%">
+	  <input style="width: 200px; color: black; height: 45spx;" type='date'/>
+	  </div>
+	  	
+	  	
+    
+</div>
+
+  <div style="padding-top: 20px;padding-left: 30px; width: 780px; height: 500px; margin-top: 50px; margin-bottom: 80px; margin-right:30px; border: solid 5px;border-radius: 25px; border-color:white; float:right; font-family: PT Serif;">
+		<h2 style="text-align: center; font-size: 30px; font-weight: normal;">daily log</h2>
+		<!--</div>-->
+		
+		<!--<div class="emoji-class">-->
+		<!--	<input id="sad" type="image" src="img/sad.png">-->
+		<!--	<input type="image" src="img/meh.png">-->
+		<!--	<input type="image" src="img/hm.png">-->
+		<!--	<input type="image" src="img/smiley.png">-->
+		<!--	<input type="image" src="img/uwu.png">-->
+		<!--	</div>-->
+		<!--</div>-->
+		<!--// <script>-->
+		<!--// 	function myFunction(){-->
+		<!--// 		document.getElementById("sad").css("border","solid 2px;")-->
+		<!--// 	}-->
+		<!--// </script>-->
+
+<!--</form>-->
+			
+			
+<!--		</div>-->
+<div id="apnd">
+		<div class="emoji" style="margin-left: 0px;">
+			<h2 style="margin-left: 0px;">mood survey:</h2>
+			<input type="radio" style="white-space: nowrap;"></input><p5 style="padding-left: 15px;">:D</p5><br>
+			<input type="radio" style="white-space: nowrap;"></input><p5 style="padding-left: 15px;">:)</p5><br>
+			<input type="radio" style="white-space: nowrap;"></input><p5 style="padding-left: 15px;">¯\_(ツ)_/¯</p5><br>
+			<input type="radio" style="white-space: nowrap;"></input><p5 style="padding-left: 15px;">:/</p5><br>
+			<input type="radio" style="white-space: nowrap;"></input><p5 style="padding-left: 15px;">:(</p5><br><br>
+			</div>
+			<!--<img src="images/sad.png" class="emoji">-->
+			<!--<button type="button"></button><p5>     :/</p5>-->
+			<!--<img src="images/meh.png" class="emoji">-->
+			<!--<button type="button"></button><p5>     ¯\_(ツ)_/¯</p5>-->
+			<!--<img src="images/hm.png" class="emoji">-->
+			<!--<button type="button"></button><p5>     :)</p5>-->
+			<!--<img src="images/smiley.png" class="emoji">-->
+			<!--<button type="button"></button><p5>     uwu</p5>-->
+			<!--<img src="images/uwu.png" class="emoji">-->
+	
+			
+			<div class="flow-level" >
+				<h2 style="margin-left: 0px;">flow level:</h2>
+  <select name="flow-level">
+  	
+    <option value="choose">choose</option>
+    <option value="spotting">spotting</option>
+    <option value="light">light</option>
+    <option value="medium">medium</option>
+    <option value="heavy">heavy</option>
+    <option value="very-heavy">very heavy</option>
+  </select>
+  
+</div>
+		
+		
+			
+			<div class="blood-color" >
+				<h2 style="margin-left: 0px;">blood color:</h2>
+  <select name="blood-color">
+  	
+    <option value="choose">choose</option>
+    <option value="pink">pink</option>
+    <option value="light-red">light-red</option>
+    <option value="red">red</option>
+    <option value="dark-red">dark-red</option>
+    <option value="brown">brown</option>
+     <option value="black">black</option>
+  </select>
+  
+</div>
+		
+			
+			<div class="clots">
+				<h2 style="margin-left: 0px;">clots:</h2>
+  <select name="clots">
+  	
+    <option value="choose">choose</option>
+    <option value="spotting">small</option>
+    <option value="medium">medium</option>
+    <option value="heavy">large</option>
+  </select>
+  
+</div>
+	
+			
+			<div class="cramps">
+				<h2 style="margin-left: 0px;">cramps:</h2>
+  <select name="cramps">
+  	
+    <option value="choose">choose</option>
+    <option value="slight">slight</option>
+    <option value="moderate">moderate</option>
+    <option value="severe">severe</option>
+  </select>
+  
+</div>
+		</div>
+		
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 style="font-size: 20px; font-weight:normal; margin-left:15px;">notes:</h2>
+		<textarea style="padding-left:80px; width: 665px; padding-bottom: -20px; height:100px;" id="textarea" oninput="savedata();" autofocus spellcheck="false"></textarea>
+	</div>
+	
+	
+	<script>
+	function loaddata(){
+		if(window.localStorage["data"]){
+			document.getElementById("textarea").value = window.localStorage["data"];
+		}
+	}
+	function savedata(){
+		window.localStorage["data"] = document.getElementById("textarea").value;
+	}
+	//code copy from http://stackoverflow.com/questions/1601593/fire-tab-keypress-event-in-javascript
+	document.getElementById('textarea').onkeydown = function(e){
+		if (e.keyCode == 9) {
+			insertAtCursor('    ');
+			return false;
+		}
+	}
+	// code edit from http://jsfiddle.net/Znarkus/Z99mK/
+	function insertAtCursor(myValue) {
+		myField = document.getElementById("textarea");
+	    //IE support
+	    if (document.selection) {
+	        myField.focus();
+	        sel = document.selection.createRange();
+	        sel.text = myValue;
+	    }
+	    //MOZILLA and others
+	    else if (myField.selectionStart || myField.selectionStart == '0') {
+	        var startPos = myField.selectionStart;
+	        var endPos = myField.selectionEnd;
+	        myField.value = myField.value.substring(0, startPos)
+	            + myValue
+	            + myField.value.substring(endPos, myField.value.length);
+	        myField.selectionStart = startPos + myValue.length;
+	        myField.selectionEnd = startPos + myValue.length;
+	    } else {
+	        myField.value += myValue;
+	    }
+	}
+	loaddata();
+	</script>
+    
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+ <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+
+  <script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    var firebaseConfig = {
+      // ...
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDqp-prMt49z4Pt3NZdk_M5ArwLvktAvdo",
+    authDomain: "periodtracker-1d32c.firebaseapp.com",
+    databaseURL: "https://periodtracker-1d32c.firebaseio.com",
+    projectId: "periodtracker-1d32c",
+    storageBucket: "periodtracker-1d32c.appspot.com",
+    messagingSenderId: "496177179378"
+  };
+  firebase.initializeApp(config);
+</script>
+
+ <div>
+	<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+	  	<link rel="stylesheet" href="css/theme2.css" type="text/css" media="all">
+		    <div title="Add to Calendar" class="addeventatc" style="float: left; margin-bottom: 100px;margin-top: 100px; margin-left:180px; width:150px; background-color: #FF866B; height:auto; border:4px solid white; border-radius:10px; color: black; font-size: 20px; font-family: PT Serif;">
+    add to calendar
+    <span class="start">12:00AM</span>
+    <span class="end">11:59PM</span>
+    <span class="timezone">America/California</span>
+    <span class="title">Luna: Mid-Cycle Day</span>
+    <span class="description">you're halfway thereeeeeee. . .oH OH! living on a period!!! -Luna</span>
+    <span class="location"></span>
+</div>
+</body>
+</html>
+
+</body>
+
+</html>
